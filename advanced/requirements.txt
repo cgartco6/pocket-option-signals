@@ -3,4 +3,6 @@ numpy
 ta
 requests
 scikit-learn
+sklearn
+gradientboostingclassifier
 joblib
