@@ -8,9 +8,6 @@ from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.preprocessing import RobustScaler
 from joblib import load
 import os
-from telegram.ext import Application, CommandHandler, MessageHandler,filters, ContextTypes
-async def start_command(update: Update, context: ContextTypes.DEFULT_TYPE):
-        await update.message.reply_text('Welcome to AI Trading Signals')
 
 # Configuration
 TELEGRAM_BOT_TOKEN = '7475784679:AAFK9Y183wxB_5YriDvkflYzveNwZRAt9vE'
