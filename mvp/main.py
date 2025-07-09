@@ -46,7 +46,7 @@ class MVPTradingSystem:
             
         # Calculate EMAs
         df['ema5'] = ta.trend.ema_indicator(df['close'], window=5)
-        df['ema21'] = ta.trend.ema_indicator(df['close'], window=21)
+        df['ema20'] = ta.trend.ema_indicator(df['close'], window=20)
         
         current = df.iloc[-1]
         prev = df.iloc[-2]
