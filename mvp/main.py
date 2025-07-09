@@ -6,7 +6,7 @@ from datetime import datetime
 
 # Configuration
 TELEGRAM_BOT_TOKEN = '7475784679:AAFK9Y183wxB_5YriDvkflYzveNwZRAt9vE'
-TELEGRAM_CHAT_ID = '7642813067'
+TELEGRAM_CHAT_ID = '-1002510531917'
 ASSETS = ['EURUSD', 'BTCUSDT']  # Use trading pairs without slashes
 TIMEFRAME = '5m'
 LIMIT = 50  # Number of candles to fetch
