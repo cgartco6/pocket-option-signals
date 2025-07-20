@@ -130,10 +130,10 @@ class AdvancedTradingSystem:
         
         signals = []
         # Golden Cross
-        if current['ema5'] > current['ema21'] and prev['ema5'] <= prev['ema21']:
+        if current['ema5'] > current['ema20'] and prev['ema5'] <= prev['ema21']:
             signals.append(('BUY', 'CGARTCO Golden Cross'))
         # Death Cross
-        elif current['ema5'] < current['ema21'] and prev['ema5'] >= prev['ema21']:
+        elif current['ema5'] < current['ema20'] and prev['ema5'] >= prev['ema21']:
             signals.append(('SELL', 'CGARTCO Death Cross'))
             
         return signals
