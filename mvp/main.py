@@ -53,10 +53,10 @@ class MVPTradingSystem:
         
         signals = []
         # Golden Cross
-        if current['ema5'] > current['ema20'] and prev['ema5'] <= prev['ema21']:
+        if current['ema5'] > current['ema20'] and prev['ema5'] <= prev['ema20']:
             signals.append('BUY')
         # Death Cross
-        elif current['ema5'] < current['ema20'] and prev['ema5'] >= prev['ema21']:
+        elif current['ema5'] < current['ema20'] and prev['ema5'] >= prev['ema20']:
             signals.append('SELL')
             
         return signals
